@@ -3,10 +3,23 @@
 </template>
 
 <script>
-// import axios from 'axios';
+import axios from 'axios';
 
 export default {
-  name: 'App'
+  name: 'App',
+  data(){
+    return {
+      pokemons: []
+    }
+  },
+
+  // created (tem que ser essa) => ai chamar os dados sempre que for carregado
+  created: function(){
+    axios.get('https://pokeapi.co/api/v2/pokemon?limit=151&offset=0').then(res => {
+      this.pokemons = res.data.results;
+      console.log("Pegou a lista de Pokémons");
+    });
+  }
 }
 </script>
 
