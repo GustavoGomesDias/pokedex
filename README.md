@@ -2,6 +2,8 @@
 
 PokéDex simples que serviu para fixar conteúdo sobre Vue 🎨
 
+![gif](https://github.com/GustavoGomesDias/pokedex/blob/main/pokedex.gif)
+
 ## 📕 Sumário
 1. [O que eu aprendi de novo nesse projeto](https://github.com/GustavoGomesDias/pokedex#1--o-que-eu-aprendi-de-novo-nesse-projeto)
 2. [Tecnologias usadas](https://github.com/GustavoGomesDias/pokedex#2--tecnologias-usadas)
