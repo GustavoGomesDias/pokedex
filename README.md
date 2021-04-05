@@ -17,6 +17,8 @@ PokéDex simples que serviu para fixar conteúdo sobre Vue 🎨
 * Vue;
 * Axios;
 * Bulma
+* [PokéAPI](https://pokeapi.co/)
+
 
 ## 3. 🎉 Para rodar o projeto
 1. Instale todas es tec's usadas junto do Node JS:
